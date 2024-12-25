@@ -1,0 +1,396 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#main {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+#nav {
+  height: 60px;
+  width: 100%;
+  /* background-color: aqua; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 88px;
+}
+#nav-prt1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+}
+#nav-prt1 h2 {
+  font-size: 20px;
+}
+#nav-prt2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: blue; */
+  width: 70%;
+  margin-right: 50px;
+}
+#nav-prt2 h5 {
+  font-weight: 100;
+  font-size: 13px;
+}
+#nav-prt2 button {
+  background-color: #000;
+  color: #fff;
+  font-size: 13px;
+  padding: 8px 20px;
+}
+#container {
+  height: 50%;
+  width: 100%;
+  /* background-color: blue; */
+  display: flex;
+  position: relative;
+}
+#left {
+  height: 100%;
+  width: 55%;
+  /* background-color: aqua; */
+  padding: 50px 90px;
+}
+#left h1 {
+  font-size: 80px;
+  margin-bottom: 5%;
+}
+#left p {
+  color: #8a8a8a;
+  font-size: 13px;
+  text-align: start;
+  padding: 0 5px;
+}
+#right {
+  height: 100%;
+  width: 45%;
+  /* background-color: blue; */
+  padding: 25px 0;
+}
+#right #box {
+  height: 250px;
+  width: 320px;
+  /* background-color: red; */
+}
+#right img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+#inner {
+  height: 60%;
+  width: 100%;
+  /* background-color: blueviolet; */
+  position: relative;
+  display: flex;
+}
+#left1 {
+  height: 100%;
+  width: 45%;
+  /* background-color: aqua; */
+  padding: 50px 90px;
+}
+#left1 button {
+  padding: 14px 40px;
+  border: none;
+  background-color: #000;
+  color: #fff;
+}
+#elem1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#elem1 h1 {
+  font-weight: 500;
+  font-size: 50px;
+  margin-top: 100px;
+  color: #000000ab;
+  margin-right: 10px;
+}
+#elem1 span {
+  font-weight: 400;
+  color: #000000ab;
+}
+#elem2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#elem2 h6 {
+  color: #000000ab;
+  margin-right: 50px;
+}
+#right1 {
+  height: 100%;
+  width: 55%;
+
+  /* background-color: yellow; */
+}
+#right1 #box1 {
+  height: 250px;
+  width: 400px;
+  /* background-color: red; */
+}
+#right1 img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+#right1 #box2 {
+  height: 70px;
+  width: 70px;
+  background-color: #000;
+  position: absolute;
+  right: 400px;
+  bottom: 155px;
+}
+#lastdiv {
+  height: 40%;
+  width: 100%;
+  /* background-color: red; */
+}
+#lastdiv h2 {
+  font-size: 38px;
+  padding: 20px 100px;
+}
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 150px;
+}
+#card1 {
+  height: 150px;
+  width: 200px;
+  /* background-color: blue; */
+}
+
+#card1 p {
+  font-size: 12px;
+  text-align: start;
+  margin-top: 25px;
+}
+#card2 {
+  height: 150px;
+  width: 200px;
+  /* background-color: blue; */
+}
+#card2 p {
+  font-size: 12px;
+  text-align: start;
+  margin-top: 25px;
+}
+#card3 {
+  height: 150px;
+  width: 200px;
+  /* background-color: blue; */
+}
+#card3 p {
+  font-size: 12px;
+  text-align: start;
+  margin-top: 25px;
+}
+@media (max-width: 600px) {
+  #main {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+  }
+  #nav {
+    height: 60px;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 0 88px;comm */
+  }
+  #nav-prt1 h2 {
+    font-size: 20px;
+  }
+  #nav-prt2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: blue; */
+    width: 70%;
+    margin-right: 50px;
+  }
+  #nav-prt2 h5 {
+    font-weight: 100;
+    font-size: 13px;
+  }
+  #nav-prt2 button {
+    background-color: #000;
+    color: #fff;
+    font-size: 13px;
+    padding: 8px 20px;
+  }
+  #container {
+    height: 50%;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    position: relative;
+  }
+  #left {
+    height: 100%;
+    width: 55%;
+    /* background-color: aqua; */
+    padding: 50px 90px;
+  }
+  #left h1 {
+    font-size: 80px;
+    margin-bottom: 5%;
+  }
+  #left p {
+    color: #8a8a8a;
+    font-size: 13px;
+    text-align: start;
+    padding: 0 5px;
+  }
+  #right {
+    height: 100%;
+    width: 45%;
+    /* background-color: blue; */
+    padding: 25px 0;
+  }
+  #right #box {
+    height: 250px;
+    width: 320px;
+    /* background-color: red; */
+  }
+  #right img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  #inner {
+    height: 60%;
+    width: 100%;
+    /* background-color: blueviolet; */
+    position: relative;
+    display: flex;
+  }
+  #left1 {
+    height: 100%;
+    width: 45%;
+    /* background-color: aqua; */
+    padding: 50px 90px;
+  }
+  #left1 button {
+    padding: 14px 40px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+  }
+  #elem1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #elem1 h1 {
+    font-weight: 500;
+    font-size: 50px;
+    margin-top: 100px;
+    color: #000000ab;
+    margin-right: 10px;
+  }
+  #elem1 span {
+    font-weight: 400;
+    color: #000000ab;
+  }
+  #elem2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #elem2 h6 {
+    color: #000000ab;
+    margin-right: 50px;
+  }
+  #right1 {
+    height: 100%;
+    width: 55%;
+  
+    /* background-color: yellow; */
+  }
+  #right1 #box1 {
+    height: 250px;
+    width: 400px;
+    /* background-color: red; */
+  }
+  #right1 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  #right1 #box2 {
+    height: 70px;
+    width: 70px;
+    background-color: #000;
+    position: absolute;
+    right: 300px;
+    bottom: 114px;
+  }
+  #lastdiv {
+    height: 60%;
+    width: 100%;
+    /* background-color: red; */
+  }
+  #lastdiv h2 {
+    font-size: 38px;
+    padding: 74px;
+  }
+  .cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+  }
+  #card1 {
+    height: 150px;
+    width: 200px;
+    /* background-color: blue; */
+  }
+  
+  #card1 p {
+    font-size: 12px;
+    text-align: start;
+    margin-top: 25px;
+  }
+  #card2 {
+    height: 150px;
+    width: 200px;
+    /* background-color: blue; */
+  }
+  #card2 p {
+    font-size: 12px;
+    text-align: start;
+    margin-top: 25px;
+  }
+  #card3 {
+    height: 150px;
+    width: 200px;
+    /* background-color: blue; */
+  }
+  #card3 p {
+    font-size: 12px;
+    text-align: start;
+    margin-top: 25px;
+  }
+}
